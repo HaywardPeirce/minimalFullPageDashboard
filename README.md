@@ -1,7 +1,7 @@
 # minimalFullPageDashboard
-A minimal site-looping dashboard page for FullPageOS
+A minimal site-looping dashboard page for [FullPageOS](https://github.com/guysoft/FullPageOS)
 
-This dashboard page was inspired by [FullPageDashboard](https://github.com/amitdar/FullPageDashboard). The idea was to build a minimalist page that simply looped through a list of configured sites at a configured rate. These sites, and this delay, are both configurable from config files, and there is no web interface for selecting sites nor for starting/stopping the looping.
+This dashboard page was inspired by [FullPageDashboard](https://github.com/amitdar/FullPageDashboard). The idea was to build a minimalist page that simply looped through a list of configured sites at a configured rate. These sites, and this delay, are both configurable from config files, with no need for a web interface for selecting sites nor for starting/stopping the looping.
 
 1. Clone the repo into, for example, the pi user's home directory `~/`
 2. Make copes of the `config.ini.example` and `sites.txt.example` files and remove the `.example` from the new files' names
